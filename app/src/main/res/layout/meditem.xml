@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_margin="10dp">
+
+    <ImageView
+        android:id="@+id/item_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/pic0"></ImageView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center"
+        >
+        <TextView
+            android:id="@+id/codeMed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:text="Nom"
+            ></TextView>
+        <TextView
+            android:id="@+id/nameMED"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:text="Nom"
+            android:layout_below="@id/codeMed"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/Datedeb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:text="Nom"
+            android:layout_below="@id/nameMED"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/Datefin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:text="Nom"
+            android:layout_below="@+id/Datedeb"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/rembo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:text="Nom"
+            android:layout_below="@id/Datefin"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/QteMed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:text="Nom"
+            android:layout_below="@id/rembo"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/ClassMEd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:text="Nom"
+            android:layout_below="@id/QteMed"
+            ></TextView>
+    </RelativeLayout>
+
+</LinearLayout>
